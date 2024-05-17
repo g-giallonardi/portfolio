@@ -11,7 +11,7 @@ export default function Splash(){
                     <div className='animate-waving-hand mx-2'>👋🏻</div>
                     , I&apos;m Guillaume
                 </div>
-            <div className='flex flex-row font-extrabold text-3xl md:text-6xl mb-5 mt-3 text-primary'>
+            <div className='flex flex-row font-extrabold text-3xl sm:text-6xl mb-5 mt-3 text-primary'>
                 <div
                     className=' mr-3 bg-gradient-to-r from-fuchsia-200 to-yellow-200
                       bg-no-repeat [background-position:0_90%]
