@@ -31,7 +31,7 @@ export default function Skills(){
                     <h3 className='text-lg font-bold mb-2'>Frontend</h3>
                     <ul>
                         <Skill label='React' icon={ReactIcon} />
-                        <Skill label='React' icon={NextjsIcon} />
+                        <Skill label='Next.js' icon={NextjsIcon} />
                     </ul>
                 </div>
                 <div className='flex flex-col items-center mb-5'>
