@@ -9,7 +9,7 @@ export default function Splash(){
                 <div className='font-light flex flex-row'>
                     Hi
                     <div className='animate-waving-hand mx-2'>👋🏻</div>
-                    , I'm Guillaume
+                    , I&apos;m Guillaume
                 </div>
             <div className='flex flex-row font-extrabold text-6xl mb-5 mt-3 text-primary'>
                 <div
