@@ -8,15 +8,13 @@ import Contact from "@/app/_components/Contact/Contact";
 import FadeInOnScroll from "@/app/_components/FadeInOnScroll/FadeInOnScroll";
 export default function Home() {
   return (
-      <div className="flex flex-col max-w-4xl m-auto
-      "
+      <div className="flex flex-col xl:max-w-screen-lg lg:max-w-screen-md md:max-w-screen-md m-auto"
       >
-
             <div className="bg-[url('./_assets/background/hero-background.svg')]">
                 <Hero/>
             </div>
 
-          <div className='flex flex-row gap-4'>
+          <div className='flex lg:flex-row flex-col gap-4'>
               <div className='basis-2/3'>
                   <FadeInOnScroll>
                     <Projects/>

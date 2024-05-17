@@ -6,7 +6,7 @@ import CodeIcon from "@/app/_components/icons/CodeIcon";
 export default function Project({data:project}){
 
     return(
-        <div className='flex flex-row items-center gap-2 mb-3'>
+        <div className='flex flex-row items-center gap-2 mb-3 '>
             <div
                 className='flex outline outline-1 rounded-sm bg-muted inline-flex items-center h-10 w-10 justify-center'
             >
@@ -19,11 +19,11 @@ export default function Project({data:project}){
                     )}</h2>
                 <span className='text-xs'>{project.description}</span>
                 <a
-                    className='text-xs ml-3 text-primary hover:underline hover:underline-offset-8'
+                    className='text-xs ml-3 text-primary font-code hover:underline hover:underline-offset-8'
                     href={project.link}
                     target='_blank'
                 >
-                    [_↗ view details]
+                    [_↗ view Github]
                 </a>
             </div>
         </div>

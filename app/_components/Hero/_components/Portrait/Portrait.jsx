@@ -6,8 +6,9 @@ export default function Portrait(){
     return(
         <div className='flex max-w-xs rounded-full
         bg-gradient-to-r from-primary/50 to-primary-foreground/50
-        [background-position:0_90%]
-        translate-x-12 translate-y-12
+        lg:[background-position:0_90%]
+        lg:translate-x-12 lg:translate-y-12
+        mx-auto
         '
         >
             <Image
@@ -15,7 +16,7 @@ export default function Portrait(){
                 alt={`Guillaume Giallonardi's portrait`}
                 className='w-full object-scale-down min-w-64 w-64
                 rounded-full ring-2 ring-offset-4 ring-accent
-                -translate-x-12 -translate-y-12
+                lg:-translate-x-12 lg:-translate-y-12
                 '
             />
         </div>

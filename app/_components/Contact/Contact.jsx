@@ -7,7 +7,7 @@ export default function Contact(){
 
     return(
         <Section
-            className='my-4'
+            className='my-4 md:mx-0 mx-4'
         >
             <Button
                 className='bg-secondary rounded-xl w-full h-36 shadow-md ring-offset-2 ring-2 ring-accent
@@ -22,9 +22,9 @@ export default function Contact(){
                     target='_blank'
                 >
                     <div className='flex flex-row justify-between w-full'>
-                        <div className='flex flex-col w-full ml-24'>
-                            <div className='text-xl font-bold text-primary'>Want to contact me?</div>
-                            <div className='ml-9 text-lg font-bold text-primary'>... just in one click!</div>
+                        <div className='flex flex-col w-full ml-9 sm:ml-24 lg:ml-48'>
+                            <div className='text-lg md:text-xl font-bold text-primary'>Want to contact me?</div>
+                            <div className=' ml-3 md:ml-9 text-md md:text-lg font-bold text-primary'>... just in one click!</div>
                         </div>
                         <div className='text-primary animate-float mr-24'><MailIcon size={56}/></div>
                     </div>

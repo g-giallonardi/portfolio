@@ -14,12 +14,12 @@ import Skill from "@/app/_components/Skills/_components/Skill";
 
 export default function Skills(){
     return(
-        <Section className='flex flex-col my-4'>
+        <Section className='flex flex-col my-4 md:mx-0 mx-4'>
             <div className='text-xl font-bold my-3 '>
                 My main skills
             </div>
-            <div className='flex flex-row justify-evenly '>
-                <div className='flex flex-col '>
+            <div className='flex flex-col md:flex-row md:justify-evenly justify-items-center'>
+                <div className='flex flex-col items-center'>
                     <h3 className='text-lg font-bold mb-5'>Backend</h3>
                     <ul>
                         <Skill label='Django'  icon={DjangoIcon} />
@@ -27,14 +27,14 @@ export default function Skills(){
                         <Skill label='Express.js' icon={ExpressjsIcon} />
                     </ul>
                 </div>
-                <div className='flex flex-col'>
+                <div className='flex flex-col items-center'>
                     <h3 className='text-lg font-bold mb-5'>Frontend</h3>
                     <ul>
                         <Skill label='React' icon={ReactIcon} />
                         <Skill label='React' icon={NextjsIcon} />
                     </ul>
                 </div>
-                <div className='flex flex-col'>
+                <div className='flex flex-col items-center'>
                     <h3 className='text-lg font-bold mb-5'>CSS</h3>
                     <ul>
                         <Skill label='TailwindCSS' icon={TailwindIcon} />
@@ -42,14 +42,14 @@ export default function Skills(){
                         <Skill label='BootStrap' icon={BootstrapIcon} />
                     </ul>
                 </div>
-                <div className='flex flex-col'>
+                <div className='flex flex-col items-center'>
                     <h3 className='text-lg font-bold mb-5'>Language</h3>
                     <ul>
                         <Skill label='Python' icon={PythonIcon} />
                         <Skill label='JavaScript' icon={JavascriptIcon} />
                     </ul>
                 </div>
-                <div className='flex flex-col'>
+                <div className='flex flex-col items-center'>
                     <h3 className='text-lg font-bold mb-5'>Misc.</h3>
                     <ul>
                         <Skill label='OpenAI' icon={OpenaiIcon} />
