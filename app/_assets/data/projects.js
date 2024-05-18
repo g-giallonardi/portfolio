@@ -1,8 +1,8 @@
 export const projects = [
     {
         name:'CheckMyRig',
-        description:'A platform to share RC custom builds for Reddit community',
-        stack: ['Reactjs', 'Expressjs','SASS'],
+        description:'A platform to share car custom builds for RC cars community',
+        stack: ['Reactjs', 'Expressjs','TailwindCSS'],
         link: 'https://github.com/g-giallonardi/checkmyrig'
     },
     {
