@@ -2,6 +2,7 @@ import GithubIcon from "@/app/_components/icons/GithubIcon";
 import LinkedInIcon from "@/app/_components/icons/LinkedInIcon";
 import MailIcon from "@/app/_components/icons/MailIcon";
 import PButton from "@/app/_components/Button/Button";
+import DownloadIcon from "@/app/_components/icons/DownloadIcon";
 
 export default function Splash(){
     return(
@@ -38,6 +39,9 @@ export default function Splash(){
                 </PButton>
                 <PButton href='https://www.linkedin.com/in/guillaume-giallonardi-27683919' variant='secondary'>
                     <LinkedInIcon size={16}/> <span className='mx-2'>LinkedIn</span>
+                </PButton>
+                <PButton href='/_asset/file/CV_Guillaume_GIALLONARDI_details.pdf' variant='primary'>
+                    <DownloadIcon size={16}/> <span className='mx-2'>My resume</span>
                 </PButton>
                 <PButton href='mailto:g.giallonardi@gmail.com?subject=Hey Guillaume!' variant='primary'>
                     <MailIcon size={16}/> <span className='mx-2'>Contact</span>
